@@ -1,3 +1,5 @@
+// We have two array give and we have to merge them while sorting 
+
 import java.util.*;
 public class twosorted{
     private static void createarray(int[] array){

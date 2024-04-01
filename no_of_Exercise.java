@@ -6,6 +6,25 @@ You feel tired if your energy reaches 0 or below. Calculate the minimum number o
 become tired. Every unique exercise can only be performed at most 2 times as others also have to use the machines.
 
 If performing all the exercises does not make you feel tired, return -1.
+
+Parameters :
+the first line contains an integer E,denoting the Energy.
+the next line contains an integer N,denoting the number of exercises.
+A :: Integer Array
+Each line i of the N subsequent lines contains an integer describing the amount of energy drained by ith exercise.
+
+Input: Case# 1
+6
+2
+1
+2
+    Output : 4
+Input : Case# 2
+10
+2
+1
+2
+    Output: -1
 */
 
 import java.util.*;

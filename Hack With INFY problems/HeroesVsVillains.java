@@ -60,7 +60,7 @@ class HeroesVsVillains{
     }
     
     static boolean checkVictory(int M, int H, ArrayList<Integer> list){
-        ArrayList<Integer> array =(ArrayList<Integer>)list.clone();
+        ArrayList<Integer> array =new ArrayList<Integer>(list);   
         for(int h=1; h<=M; h++){
             int temp_H = H; 
             for(int v=0; v<array.size();v++){ 

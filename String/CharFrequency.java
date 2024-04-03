@@ -3,7 +3,7 @@ Most optimized code to find frequency of all alphabet in any string.
 Or with little modification we can get frequency of any specific character or specific characters.
 */
 import java.util.*;
-class HelloWorld {
+class CharFrequency {
     public static void main(String[] args) {
         String s = "aa>//ab1!.baa c+c\\cd";
         HashMap<Character,Integer> map = new HashMap<Character,Integer>();
